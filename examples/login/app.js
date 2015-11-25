@@ -1,6 +1,5 @@
 var express = require('express')
   , passport = require('passport')
-  , util = require('util')
   , FitbitStrategy = require('passport-fitbit').Strategy;
 
 var FITBIT_CONSUMER_KEY = "--insert-fitbit-consumer-key-here--"
